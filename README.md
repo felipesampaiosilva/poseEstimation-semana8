@@ -1,4 +1,4 @@
-# poseEstimation-semana8
+# Pose Estimation para Bovinos
 
 Este repositório contém a implementação do pose estimation para bovinos, utilizando o dataset ANIMAL-POSE. A seguir, estão detalhadas as etapas realizadas no processo, os resultados obtidos e as conclusões pessoais.
 
@@ -17,8 +17,9 @@ Após análise do dataset, foram identificadas X imagens de bovinos, distribuíd
 
 Foram gerados gráficos para visualizar a distribuição das imagens no dataset:
 
-- **Distribuição das Imagens por Tipo de Animal**: [Link para Gráfico]
-- **Distribuição das Poses por Tipo de Animal**: [Link para Gráfico]
+- **Distribuição das Imagens por Tipo de Animal**:
+
+![Distribuição de Imagens por Tipo de Animal](distribuição.png)
 
 ### Descrição Textual
 
@@ -43,11 +44,11 @@ O processamento das imagens de bovinos envolveu as seguintes etapas:
 
 Abaixo está uma figura que ilustra o processo de processamento de imagem:
 
-![Processamento de Imagem](path/to/processing_image.png)
+![Processamento de Imagem](processamento-bovinos.png)
 
 #### Exemplo Detalhado Passo a Passo
 
-1. **Carregamento da Imagem**: uma imagem com sufixo co foi carregada para o sistema.
+1. **Carregamento da Imagem**: Uma imagem com sufixo `co` foi carregada para o sistema.
 2. **Conversão para Escala de Cinza**: A imagem foi convertida para escala de cinza.
 3. **Equalização do Histograma**: A equalização do histograma foi aplicada para melhorar o contraste.
 4. **Detecção de Bordas**: As bordas da imagem foram detectadas utilizando o filtro Sobel.
@@ -58,8 +59,8 @@ Abaixo está uma figura que ilustra o processo de processamento de imagem:
 
 Os resultados do processamento foram resumidos em gráficos e tabelas que demonstram a eficácia das técnicas aplicadas:
 
-- **Gráfico de Comparação de Bordas**: [Link para Gráfico]
-- **Tabela de Análise de Poses**: [Link para Tabela]
+![Distribuição de Imagens por Tipo de Animal](distribuição.png)
+
 
 ### Descrição Textual
 
@@ -71,16 +72,5 @@ Os resultados indicam que as técnicas de processamento aplicadas foram eficazes
 
 Durante este projeto, foi possível aprender sobre a importância da análise exploratória de dados e como a filtragem adequada pode facilitar o processamento subsequente. A aplicação de técnicas de processamento de imagem como equalização de histograma e detecção de bordas demonstrou ser eficaz para o problema de pose estimation.
 
-### Limitações
 
-Uma das principais limitações encontradas foi a variação na qualidade das imagens no dataset, o que afetou a consistência dos resultados. Além disso, a detecção de poses pode ser sensível a ruídos na imagem, o que exigiu técnicas adicionais de filtragem.
 
-### Sugestões para Trabalhos Futuros
-
-Para trabalhos futuros, sugere-se a utilização de técnicas mais avançadas de aprendizado de máquina para melhorar a precisão da pose estimation. A integração de modelos de deep learning treinados especificamente para bovinos pode aumentar a precisão dos resultados.
-
----
-
-Este projeto foi desenvolvido como parte do aprendizado em visão computacional e processamento de imagens, utilizando o dataset ANIMAL-POSE. O código da implementação está disponível no notebook Python (arquivo IPYNB) incluído neste repositório.
-
-Link para o repositório GitHub: [GitHub Repositório](https://github.com/seu_usuario/repo_nome)
